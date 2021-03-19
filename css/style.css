@@ -153,6 +153,15 @@ main {
 #col_right:hover {
     cursor: pointer;
 }
+#col_left:hover #img_left {
+    background-image: url(../img/img-6.jpg);
+}
+#col_center:hover #img_center {
+    background-image: url(../img/banner.jpg);
+}
+#col_right:hover #img_right {
+    background-image: url(../img/img-4.jpg);
+}
 #col_left:hover .box_opacity,
 #col_center:hover .box_opacity,
 #col_right:hover .box_opacity {
