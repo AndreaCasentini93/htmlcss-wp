@@ -1,9 +1,9 @@
 /* debug */
-nav {
+/* nav {
     background-color: #E579E6;
-}
+} */
 
-.banner {
+#banner {
     background-color: #E1D67A;
 }
 
@@ -11,21 +11,20 @@ main {
     background-color: #0483FF;
 }
 
-.title {
+#title,
+.col {
     background-color: #ABCFE7;
 }
 
-.col_left,
-.col_center,
-.col_right {
+.col {
     height: 460px;
-    background-color: #ABCFE7;
 }
 
 footer {
     background-color: #8801FE;
 }
 /* /debug */
+
 
 /* common */
 * {
@@ -40,9 +39,17 @@ footer {
     content: "";
 }
 
+body {
+
+}
+
 #container {
     margin: 30px auto;
     width: 80%;
+}
+
+.color_gray {
+    color: #AFAFAF;
 }
 
 /* header page */
@@ -50,9 +57,31 @@ nav {
     height: 100px;
 }
 
-.banner {
+#banner {
     height: 500px;
     margin: 30px 0;
+}
+
+#logo_neori {
+    width: 200px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#menu_nav > li {
+    line-height: 100px;
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+#menu_nav a {
+    font-size: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu_nav a:hover {
+    color: black;
 }
 
 /* body page */
@@ -60,7 +89,7 @@ main {
     padding-bottom: 20px;
 }
 
-.title {
+#title {
     height: 100px;
     margin-bottom: 20px;
 }
@@ -69,12 +98,12 @@ main {
     float: left;
 }
 
-.col_left,
-.col_right {
+#col_left,
+#col_right {
     width: 25%;
 }
 
-.col_center {
+#col_center {
     width: calc(50% - 40px);
     margin: 0 20px;
 }
