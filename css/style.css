@@ -177,13 +177,13 @@ main {
 #col_left:hover h4,
 #col_center:hover h4,
 #col_right:hover h4 {
-    font-size: 19px;
+    font-size: 18.2px;
     color: red;
 }
 #col_left:hover p,
 #col_center:hover p,
 #col_right:hover p {
-    font-size: 19px;
+    font-size: 18.2px;
     color: black;
 }
 
