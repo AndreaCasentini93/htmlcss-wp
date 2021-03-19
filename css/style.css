@@ -148,6 +148,19 @@ main {
     width: calc(50% - 40px);
     margin: 0 20px;
 }
+#img_left {
+    background-image: url(../img/img-1.jpg);
+}
+#img_center {
+    background-image: url(../img/banner-2.jpg);
+}
+#img_right {
+    background-image: url(../img/img-3.jpg);
+}
+.col h4 {
+    margin-bottom: 5px;
+}
+
 #col_left:hover,
 #col_center:hover,
 #col_right:hover {
@@ -176,15 +189,6 @@ main {
 #col_center:hover p,
 #col_right:hover p {
     color: black;
-}
-#img_left {
-    background-image: url(../img/img-1.jpg);
-}
-#img_center {
-    background-image: url(../img/banner-2.jpg);
-}
-#img_right {
-    background-image: url(../img/img-3.jpg);
 }
 
 /* footer page */
