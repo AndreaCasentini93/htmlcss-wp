@@ -78,10 +78,6 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
-.box_opacity:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: black;
-}
 
 /* header page */
 #logo_neori {
@@ -117,6 +113,10 @@ nav {
     background-size: cover;
     background-position: center;
     color: white;
+}
+#banner .box_opacity:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
 }
 #text_img {
     position: absolute;
@@ -155,7 +155,6 @@ main {
     width: calc(50% - 40px);
     margin: 0 20px;
 }
-
 #img_left {
     background-image: url(../img/img-1.jpg);
 }
@@ -164,6 +163,26 @@ main {
 }
 #img_right {
     background-image: url(../img/img-3.jpg);
+}
+#col_left:hover,
+#col_center:hover,
+#col_right:hover {
+    cursor: pointer;
+}
+#col_left:hover .box_opacity,
+#col_center:hover .box_opacity,
+#col_right:hover .box_opacity {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#col_left:hover h4,
+#col_center:hover h4,
+#col_right:hover h4 {
+    color: red;
+}
+#col_left:hover p,
+#col_center:hover p,
+#col_right:hover p {
+    color: black;
 }
 
 /* footer page */
