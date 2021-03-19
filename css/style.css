@@ -133,8 +133,6 @@ main {
     height: 100px;
     margin-bottom: 20px;
     padding: 20px 0px;
-}
-#title > div {
     font-size: 25px;
 }
 
@@ -150,15 +148,6 @@ main {
     width: calc(50% - 40px);
     margin: 0 20px;
 }
-#img_left {
-    background-image: url(../img/img-1.jpg);
-}
-#img_center {
-    background-image: url(../img/banner-2.jpg);
-}
-#img_right {
-    background-image: url(../img/img-3.jpg);
-}
 #col_left:hover,
 #col_center:hover,
 #col_right:hover {
@@ -172,14 +161,21 @@ main {
 #col_left:hover h4,
 #col_center:hover h4,
 #col_right:hover h4 {
-    font-size: 18.2px;
     color: red;
 }
 #col_left:hover p,
 #col_center:hover p,
 #col_right:hover p {
-    font-size: 18.2px;
     color: black;
+}
+#img_left {
+    background-image: url(../img/img-1.jpg);
+}
+#img_center {
+    background-image: url(../img/banner-2.jpg);
+}
+#img_right {
+    background-image: url(../img/img-3.jpg);
 }
 
 /* footer page */
@@ -189,7 +185,7 @@ footer {
     line-height: 50px;
 }
 
-#closing {
+footer > p {
     text-align: center;
     vertical-align: middle;
 }
