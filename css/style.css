@@ -115,7 +115,7 @@ nav {
     color: white;
 }
 #banner .box_opacity:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0);
     color: black;
 }
 #text_img {
@@ -178,7 +178,7 @@ main {
 #col_left:hover .box_opacity,
 #col_center:hover .box_opacity,
 #col_right:hover .box_opacity {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0);
 }
 #col_left:hover h4,
 #col_center:hover h4,
