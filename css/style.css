@@ -201,6 +201,8 @@ footer > p {
     text-align: center;
     vertical-align: middle;
 }
-#heart_icon {
+#heart_icon::after {
+    content: "\02665";
+    font-size: 25px;
     color: red;
 }
