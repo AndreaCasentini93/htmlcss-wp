@@ -197,11 +197,10 @@ footer {
     margin-top: 10px;
     line-height: 50px;
 }
-
 footer > p {
     text-align: center;
     vertical-align: middle;
 }
-#heart {
+#heart_icon {
     color: red;
 }
